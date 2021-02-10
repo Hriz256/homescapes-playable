@@ -1,0 +1,25 @@
+/* eslint-disable comma-dangle */
+export const Atlas = {
+	"appeal_popup": "sources/appeal_popup",
+	"Austin": "sources/Austin",
+	"bg": "sources/bg",
+	"blue_stair": "sources/blue_stair",
+	"book_stand": "sources/book_stand",
+	"button_continue": "sources/button_continue",
+	"button_ok": "sources/button_ok",
+	"carpet_blue": "sources/carpet_blue",
+	"carpet_green": "sources/carpet_green",
+	"carpet_orange": "sources/carpet_orange",
+	"circle": "sources/circle",
+	"circle_selected": "sources/circle_selected",
+	"globe": "sources/globe",
+	"green_stair": "sources/green_stair",
+	"icon_hammer": "sources/icon_hammer",
+	"logo": "sources/logo",
+	"old_stair": "sources/old_stair",
+	"orange_stair": "sources/orange_stair",
+	"plant_1": "sources/plant_1",
+	"plant_2": "sources/plant_2",
+	"sofa": "sources/sofa",
+	"table": "sources/table"
+} as const;
