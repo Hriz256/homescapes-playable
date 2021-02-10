@@ -83,6 +83,7 @@ export class Scene extends PIXI.Container {
 	/** Показывает финальное окно */
 	private showAppealPopup() {
 		this._popupTimeline = new TimelineMax()
+			.call(() => this._stairContainer.lowerStair(0.25), [], 0)
 			.to(this._menu, 0.25, { y: -this._menu.height }, 0)
 			.to(this._blackLayer, 0.4, { alpha: 1 }, 0.25)
 			.to(this._appealPopup.scale, 0.4, { x: 1, y: 1 }, 0.55)
